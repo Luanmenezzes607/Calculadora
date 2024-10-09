@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="calculadora">
+            <input id="input" autocomplete="off">
+            <button class="btn-gray" onclick="limparInput()">C</button>
+            <button class="btn-gray" onclick="maisMenos()">+/-</button>
+            <button class="btn-blue" onclick="adicionarCaracteres('/')">/</button>
+            <button class="btn-blue" onclick="adicionarCaracteres('*')">*</button>
+            <button class="btn-black" onclick="adicionarCaracteres('7')">7</button>
+            <button class="btn-black" onclick="adicionarCaracteres('8')">8</button>
+            <button class="btn-black" onclick="adicionarCaracteres('9')">9</button>
+            <button class="btn-blue" onclick="adicionarCaracteres('-')">-</button>
+            <button class="btn-black" onclick="adicionarCaracteres('4')">4</button>
+            <button class="btn-black" onclick="adicionarCaracteres('5')">5</button>
+            <button class="btn-black" onclick="adicionarCaracteres('6')">6</button>
+            <button class="btn-blue" onclick="adicionarCaracteres('+')">+</button>
+            <button class="btn-black" onclick="adicionarCaracteres('1')">1</button>
+            <button class="btn-black" onclick="adicionarCaracteres('2')">2</button>
+            <button class="btn-black" onclick="adicionarCaracteres('3')">3</button>
+            <button class="btn-blue igual" onclick="calcular()">=</button>
+            <button class="btn-black zero" onclick="adicionarCaracteres('0')">0</button>
+            <button class="btn-black" onclick="adicionarCaracteres('.')">.</button>
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
